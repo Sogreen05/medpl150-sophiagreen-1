@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEDPL 150 Section 1 - Sophia Green</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand:wght@400;500&family=Patrick+Hand&display=swap" rel="stylesheet">
   <style>
     body {
       background: linear-gradient(180deg, #fdf6f9, #fbeff5, #fdf9f3);
@@ -52,8 +52,8 @@
 
     .container {
       max-width: 850px;
-      background-color: rgba(255, 255, 255, 0.8);
-      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      margin: 0 auto 40px;
       padding: 40px 60px;
       border-radius: 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
@@ -88,7 +88,6 @@
       font-size: 0.9em;
     }
 
-    /* subtle hover effect for sections */
     .section:hover {
       transform: scale(1.01);
       transition: all 0.3s ease;
@@ -98,6 +97,56 @@
       .container {
         padding: 30px;
       }
+    }
+
+    /* Scrapbook / diary styles */
+    .scrapbook {
+      background-color: rgba(255, 228, 238, 0.85);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      margin: 50px auto;
+      max-width: 750px;
+      font-family: 'Patrick Hand', cursive;
+      color: #7a506e;
+    }
+
+    .scrapbook h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #b87ca3;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .scrapbook textarea {
+      width: 100%;
+      border-radius: 15px;
+      border: 1px solid #f0c8d9;
+      padding: 15px;
+      font-size: 1em;
+      font-family: 'Patrick Hand', cursive;
+      resize: vertical;
+      margin-bottom: 15px;
+      background-color: #fff0f5;
+    }
+
+    .scrapbook button {
+      background-color: #b87ca3;
+      color: #fff;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .scrapbook button:hover {
+      background-color: #c997b7;
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -138,6 +187,13 @@
     </div>
 
     <p>I am a current Junior in Hunter College studying Journalism, English, and Hebrew. Spending most of my creativity in the literary world, reading novels and writing poetry, but in between the world of words I create posts on Pinterest and curate Spotify playlists. My saves on Pinterest vary between aspirations in life, iconic pieces of fashion, and my favorite vintage cars. In high school I was in a 2D Art and graphic design class where I created a portfolio based on the concept of “If Walls Could Talk.” Exploring that theme gave me the space to dive into issues I care about — feminism, equality, advocacy, and community. I used mixed media in my pieces, combining graphic design with pages from novels and vinyl records to tell a story and create my own world. I hope to work on my graphic design skills and continue gaining more affordances and outlets to create pieces I care about, illustrating topics in society that matter deeply to me.</p>
+  </div>
+
+  <!-- Scrapbook / Diary Section -->
+  <div class="scrapbook">
+    <h2>🌸 My Digital Diary 🌸</h2>
+    <textarea placeholder="Write your thoughts here..."></textarea>
+    <button>Save Entry</button>
   </div>
 
   <footer>
