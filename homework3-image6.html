@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(180deg, #fdf6f9, #fbeff5, #fdf9f3);
+      background: linear-gradient(180deg, #ffe4eb, #ffd3e0, #ffe4eb); /* soft pink gradient */
       font-family: 'Quicksand', sans-serif;
       color: #4b3b47;
       margin: 0;
@@ -24,7 +24,7 @@
       max-width: 800px;
       margin: 60px auto;
       background-color: rgba(255,255,255,0.85);
-      padding: 40px 40px;
+      padding: 40px;
       border-radius: 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
       text-align: center;
@@ -45,4 +45,41 @@
 
     img {
       max-width: 100%;
-      border-radius
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #b87ca3;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 500;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #c997b7;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Homework 3 Image 6</h1>
+    <p>This is a picture of Jewish prayer books found in the Hillel. I used the camera raw filter to focus on the coloring from the book in the middle and to create an image that really popped. I wanted to highlight the color and brightness and even that out across the image.</p>
+    <img src="homework3image6.jpg" alt="Homework 3 Image 6">
+    <a href="index.html">Back to Home</a>
+    <a href="homework3-image7.html">Next Image</a>
+  </div>
+</body>
+</html>
